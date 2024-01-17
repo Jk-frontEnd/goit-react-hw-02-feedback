@@ -1,0 +1,22 @@
+.btnContainer {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.feedBtn {
+    padding: 8px;
+    font-weight: 700;
+    background-color: rgb(197, 151, 240);
+    border-radius: 8px;
+    border: 1px solid rgb(98, 0, 128);
+    color: rgb(56, 2, 143);
+    width: 100px;
+    color: white;
+
+    transition: background-color 250ms ease-in-out;
+}
+
+.feedBtn:active {
+    background-color: rgb(136, 136, 236);
+}
